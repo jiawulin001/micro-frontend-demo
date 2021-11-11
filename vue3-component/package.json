@@ -1,0 +1,24 @@
+{
+  "name": "vue3-component",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name vue3-message --dest lib --inline-vue src/define-components.js",
+    "lib:serve" : "http-server -p 5051 ./lib"
+  },
+  "dependencies": {
+    "vue": "^3.0.0",
+    "vue-loader": "^16.5.0"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
