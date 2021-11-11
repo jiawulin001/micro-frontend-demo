@@ -1,4 +1,5 @@
 # micro-frontend-demo
+![image](https://user-images.githubusercontent.com/14244944/141262738-91744247-3b4f-4e79-b340-d8d209b6034e.png)
 
 ## vite-project
 主应用，基于react和vite
