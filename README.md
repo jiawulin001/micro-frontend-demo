@@ -1,45 +1,47 @@
 # micro-frontend-demo
+> **Demo Screenshot**   
+> 
 ![image](https://user-images.githubusercontent.com/14244944/141262738-91744247-3b4f-4e79-b340-d8d209b6034e.png)
 
 ## vite-project
-主应用，基于react和vite
+Main application, based on react and vite
 
-### 启动
+### Project setup
 ```shell
 npm run dev
 ```
-### 打包
+### Compiles
 ```shell
 npm run build
 ```
 
 ## vue2-component
-基于vue2的子组件
+Sub-components based on vue2
 
-### 打包
+### Building component libraries
 ```shell
 npm run lib
 ```
-### 提供服务
+### Services Provided
 ```shell
 npm run lib:serve
 ```
-### 开发启动
+### Development Launch
 ```shell
 npm run serve
 ```
 ## vue3-component
-基于vue3的子组件
+Sub-components based on vue3
 
-### 打包
+### Building component libraries
 ```shell
 npm run lib
 ```
-### 提供服务
+### Services Provided
 ```shell
 npm run lib:serve
 ```
-### 开发启动
+### Development Launch
 ```shell
 npm run serve
 ```
